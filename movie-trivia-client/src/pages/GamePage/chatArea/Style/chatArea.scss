@@ -1,0 +1,84 @@
+$global-background-color: #062123;
+$global-text: #f6fdfd;
+$secondary-color: #0a3034;
+$primary-color : #db3e33;
+$accent-color : #8f2119;
+
+.chatAreaContainer{
+    display: grid;
+    grid-template-rows: 9fr 1fr;
+    .messageAreaChatArea{
+        height: 80vh;
+        background-color: black;
+        background-color: $secondary-color;
+        overflow:scroll;
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+        padding:0.5rem 0.5rem 0.5rem 0.5rem;
+        .messageblock{
+            .msgCommon{
+                border-radius: 15px;
+                padding: 0.3rem 1rem 1rem 0.7rem;
+                width: 75%;
+                min-height: 3rem;
+                display: flex;
+                flex-direction: column;
+                gap: 0.3rem;
+                span{
+                    // font-size: 18px;
+                    font-weight: 550;
+                }
+                div{
+                    font-weight: 400;
+                    padding-left: 0.5rem;
+                }
+            }
+            .messageblockMy{
+                background-color: $global-background-color;
+                float: right;
+                // color: $primary-color;
+            }
+            .messageblockOther{
+                background-color: $accent-color
+            }
+        }
+        .guessedcorrentca{
+            background-color: #f6fdfd;
+            color: $primary-color;
+            border-radius: 20px;
+            width: 70%;
+            text-align: center;
+            height: 1.5rem;
+            padding-top: 0.3rem;
+            margin: 0.4rem 0rem 0.4rem 1rem;
+        }
+    }
+    .textareaChatArea{
+        display: grid;
+        grid-template-columns: 78% 12%;
+        // justify-content: center;
+        align-items: center;
+        gap: 1.2rem;
+        input{
+            all: unset;
+            background-color: $global-text;
+            height: 2.5rem;
+            border-radius: 25px;
+            padding-left: 1rem;
+            padding-right: 1rem;
+            color: $global-background-color;
+            font-size: 20px;
+            font-weight: 500;
+        }
+        button{
+            all: unset;
+            height: 2.5rem;
+            width: 4.5rem;
+            background-color: $accent-color;
+            text-align: center;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+    }
+}

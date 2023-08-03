@@ -1,0 +1,73 @@
+.chatAreaContainer {
+  display: grid;
+  grid-template-rows: 9fr 1fr;
+}
+.chatAreaContainer .messageAreaChatArea {
+  height: 80vh;
+  background-color: black;
+  background-color: #0a3034;
+  overflow: scroll;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+}
+.chatAreaContainer .messageAreaChatArea .messageblock .msgCommon {
+  border-radius: 15px;
+  padding: 0.3rem 1rem 1rem 0.7rem;
+  width: 75%;
+  min-height: 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+.chatAreaContainer .messageAreaChatArea .messageblock .msgCommon span {
+  font-weight: 550;
+}
+.chatAreaContainer .messageAreaChatArea .messageblock .msgCommon div {
+  font-weight: 400;
+  padding-left: 0.5rem;
+}
+.chatAreaContainer .messageAreaChatArea .messageblock .messageblockMy {
+  background-color: #062123;
+  float: right;
+}
+.chatAreaContainer .messageAreaChatArea .messageblock .messageblockOther {
+  background-color: #8f2119;
+}
+.chatAreaContainer .messageAreaChatArea .guessedcorrentca {
+  background-color: #f6fdfd;
+  color: #db3e33;
+  border-radius: 20px;
+  width: 70%;
+  text-align: center;
+  height: 1.5rem;
+  padding-top: 0.3rem;
+  margin: 0.4rem 0rem 0.4rem 1rem;
+}
+.chatAreaContainer .textareaChatArea {
+  display: grid;
+  grid-template-columns: 78% 12%;
+  align-items: center;
+  gap: 1.2rem;
+}
+.chatAreaContainer .textareaChatArea input {
+  all: unset;
+  background-color: #f6fdfd;
+  height: 2.5rem;
+  border-radius: 25px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  color: #062123;
+  font-size: 20px;
+  font-weight: 500;
+}
+.chatAreaContainer .textareaChatArea button {
+  all: unset;
+  height: 2.5rem;
+  width: 4.5rem;
+  background-color: #8f2119;
+  text-align: center;
+  border-radius: 10px;
+  cursor: pointer;
+}/*# sourceMappingURL=chatArea.css.map */

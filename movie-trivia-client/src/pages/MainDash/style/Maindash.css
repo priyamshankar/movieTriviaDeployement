@@ -1,0 +1,103 @@
+.mainDashContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-top: 4rem;
+}
+.mainDashContainer button {
+  all: unset;
+  width: 10rem;
+  height: 3rem;
+  cursor: pointer;
+  text-align: center;
+  border-radius: 10px;
+}
+.mainDashContainer .maindashjoin {
+  background-color: #0a3034;
+  color: #f6fdfd;
+}
+.mainDashContainer .maindashcreate {
+  background-color: #db3e33;
+  color: black;
+}
+.mainDashContainer .maindashcreate:hover {
+  background-color: #0a3034;
+  color: #f6fdfd;
+}
+.mainDashContainer .maindashjoin:hover {
+  background-color: #db3e33;
+  color: black;
+}
+.mainDashContainer .button_container_MianDash {
+  display: flex;
+  gap: 3rem;
+  margin-top: 2rem;
+}
+.mainDashContainer .grid-comp-maindash {
+  display: flex;
+  flex-direction: column;
+  color: #f6fdfd;
+  align-items: center;
+  justify-content: center;
+}
+.mainDashContainer .grid-comp-maindash span {
+  color: #db3e33;
+}
+.mainDashContainer .grid-comp-maindash h1 {
+  font-size: 45px;
+}
+.mainDashContainer .grid-comp-maindash h2 {
+  font-weight: 300;
+}
+.mainDashContainer .dash_next_menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  background-color: #0a3034;
+  width: 75%;
+  height: 80%;
+  margin-left: 5vw;
+  margin-top: 3vh;
+}
+.mainDashContainer .dash_next_menu input {
+  all: unset;
+  width: 60%;
+  height: 2.5rem;
+  background-color: #f6fdfd;
+  border-radius: 6px;
+  text-align: center;
+  color: #8f2119;
+}
+.mainDashContainer .dash_next_menu .maindashcreate-btn {
+  background-color: #db3e33;
+  color: black;
+}
+.mainDashContainer .dash_next_menu .maindashcreate-btn:hover {
+  background-color: #062123;
+  color: #f6fdfd;
+}
+.mainDashContainer .dash_next_menu .maindashjoin-btn {
+  background-color: #062123;
+  color: #f6fdfd;
+}
+.mainDashContainer .dash_next_menu .maindashjoin-btn:hover {
+  background-color: #db3e33;
+  color: black;
+}
+.mainDashContainer .dash_next_menu h1 {
+  color: #f6fdfd;
+  text-align: center;
+}
+.mainDashContainer .joinMainDash {
+  display: flex;
+  flex-direction: column;
+}
+.mainDashContainer .grid-pic-maindash {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.mainDashContainer .grid-pic-maindash img {
+  height: 67vh;
+}/*# sourceMappingURL=Maindash.css.map */
