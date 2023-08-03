@@ -21,7 +21,7 @@ const InsertMovies = () => {
 
   function handleSubmit(e) {
     e.preventDefault();
-    axios.post("http://localhost:5000/api/postmovie", formData).then((res) => {
+    axios.post("https://movie-trivia-deployement.vercel.app//api/postmovie", formData).then((res) => {
       console.log(res);
     });
   }

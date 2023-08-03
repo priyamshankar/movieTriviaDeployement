@@ -34,7 +34,7 @@ const PlayArea = ({ socket }) => {
     async function getData() {
       const roomdata = params.roomData;
       const moviedata = await axios
-        .post("http://localhost:5000/api/getmovie", { roomdata })
+        .post("https://movie-trivia-deployement.vercel.app//api/getmovie", { roomdata })
         .then((res) => {
           setmoviedataSet(res.data);
         });
